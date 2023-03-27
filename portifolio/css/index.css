@@ -4,7 +4,7 @@ body, p, h1{
 }
 body{
     height: 100vh;
-    background-image: linear-gradient(to bottom, violet, rgb(110, 41, 147), blue);
+    background-image: url(../);
     background-size: cover;
 }
 header{
