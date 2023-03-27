@@ -3,29 +3,34 @@ body, p, h1{
     margin: 0px;
 }
 body{
-    height: 100vh;
-    background-image: url(../);
+    max-height: 100vh;
+    background-image: url(../fotos/fundo-gato.png);
     background-size: cover;
 }
 header{
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.54);
+    background-color: rgba(0, 0, 0, 0.523);
     padding: 30px;
+    box-shadow:  2px 2px 6px rgba(0, 0, 0, 0.329);
 }
 h1{
     font-size: 4em;
     font-variant: small-caps;
     color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.407);
 }
 section{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    padding: 40px;
+    padding: 20px 60px;
     margin: auto;
-    background-color: rgba(245, 222, 179, 0.481);
+    background-color: rgba(94, 75, 41, 0.6);
+    border: solid 2px rgba(0, 0, 0, 0.278);
     border-radius: 10px;
+    box-shadow:  2px 2px 6px rgba(0, 0, 0, 0.329);
+
 }
 .lista{
     padding: 0%;
@@ -36,14 +41,17 @@ li{
     padding: 10px;
 }
 p{
-    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.076);
 }
 a{
-    font-size: 24px;
-    color: black;
+    font-size: 28px;
+    color: rgb(192, 192, 192);
     text-decoration: none;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.198);
 }
 a:hover{
-    color: brown;
+    color: rgb(197, 13, 13);
 }
