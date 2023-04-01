@@ -1,0 +1,86 @@
+  *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header{
+            padding: 40px;
+            text-align: center;
+            margin: 0px;
+            background-color: brown;
+        }
+
+        .container{
+            margin: auto;
+            margin-top: 100px;
+            padding: 0px 20px;
+            display: flex;
+            max-width: 900px;
+            min-height: 500px;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+        .section{
+            margin: 20px 0px;
+            align-items: center;
+            align-content: center;
+            display: flex;
+        }
+        .card{
+            color: white;
+            font-size: 2em;
+            display: flex;
+            flex-shrink: 0;
+            width: 80px;
+            height: 80px;
+            justify-content: center;
+            align-items: center;
+            background-color: brown;
+        }
+        #texto{
+            display: flex;
+            margin-left: 5px;
+            text-align: left;
+            text-indent: 40px;
+        }
+        .rodape{
+            font-size: large;
+            padding: 10px;
+            text-align: center;
+            background-image: linear-gradient(to bottom, brown ,rgb(120, 31, 31));
+        }
+        .link{
+            color: black;
+            margin: 10px;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+            transition-duration: 0.3s;
+        }
+        h1{
+            font-variant: small-caps;
+            font-size: 3em;
+        }
+        h2{
+            margin-top: 20px;
+        }
+        .footer{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            width: 93,5vw;
+            background-color: brown;
+        }
+        .icone{
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .ativo:hover{
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.237);
+        }
