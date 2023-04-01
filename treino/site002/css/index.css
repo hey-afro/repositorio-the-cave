@@ -10,10 +10,16 @@
             margin: 0px;
             background-color: brown;
         }
-
+        .papel-deparede{
+            background-image: url(../foto/fundo.jpg);
+            background-size: 120%;
+            background-position: center top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        
         .container{
             margin: auto;
-            margin-top: 100px;
             padding: 0px 20px;
             display: flex;
             max-width: 900px;
@@ -22,10 +28,40 @@
             justify-content: center;
         }
         .section{
+            background-color: rgba(255, 255, 255, 0.58);
+            padding: 15px;
             margin: 20px 0px;
             align-items: center;
             align-content: center;
             display: flex;
+            border-radius: 5px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.114);
+        }
+        .section-2{
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0px;
+            align-items: center;
+            align-content: center;
+            display: flex;
+        }
+        .icones-maiores{
+            display: flex;
+            border-radius: 50%;
+            width: 180px;
+            height: 190px;
+            box-shadow:  10px 10px 15px rgba(74, 74, 74, 0.218);
+        } 
+        .a-de-icones-g{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .a-de-icones-g:hover{
+            border-radius: 50%;
+            transform: translate(10%,-0%);
+            animation-duration: 3s;
+            box-shadow:  10px 10px 15px rgba(74, 74, 74, 0.44);
         }
         .card{
             color: white;
@@ -40,11 +76,15 @@
         }
         #texto{
             display: flex;
-            margin-left: 5px;
+            margin-left: 10px;
+            line-height: 2em;
             text-align: left;
-            text-indent: 40px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.169);
         }
         .rodape{
+            justify-content: center;
+            flex-wrap: wrap;
+            display: flex;
             font-size: large;
             padding: 10px;
             text-align: center;
@@ -61,19 +101,47 @@
         }
         h1{
             font-variant: small-caps;
-            font-size: 3em;
+            font-size: 4em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.045);
         }
         h2{
-            margin-top: 20px;
+            margin: 40px 0px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.155);
+        }
+        h3{
+            font-size: x-large 25px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .aba{
+            background-color: brown;
         }
         .footer{
             align-items: center;
             display: flex;
             justify-content: center;
-            padding: 20px;
+            padding: 10px;
             width: 93,5vw;
+            background-image: linear-gradient(to bottom, brown, rgb(108, 29, 29));
+        }
+        .lista{
+            
+            padding: 0px 20px;
+            text-align: center;
             background-color: brown;
         }
+        
+        .lista ul {
+            margin: auto;
+            max-width: 800px;
+            padding: 40px;
+            list-style-position: inside;
+            columns: 3;
+        }
+        .lista ul li{
+            margin: 5px;
+        }
+
         .icone{
             margin: 10px;
             width: 50px;
