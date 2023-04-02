@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+body{
+    max-width: 100%;
+    background-image: url(../imagem/fundo.jpg);
+    background-size: contain;
+    background-position: center top;
+    background-attachment: fixed;
+}
+:root{
+    --a: #2F8A84;
+    --b: #4A8A85;
+    --c: #1B3D3B;
+    --d: #8A4421;
+    --e: #3D261B;
+}
+/** Topo do site  **/
+.top{
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.442) ;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.286)
+}
+.top h1{
+    color: white;
+    font-size: 4em;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.136);
+}
+
+/** meio do site **/
+main{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: ;
+    justify-content: center ;
+    padding: 30px 0px;
+    padding-bottom: 40px;
+}
+
+main h2{
+    color: white;
+    display: flex;
+    font-family:serif;
+    justify-content: center;
+    font-size: 2em;
+    margin: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.136);
+}
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+.mid{
+    display: flex;
+    max-width: 900px;
+    flex-flow: column ;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 15px;
+}
+.intro p{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    text-indent: 10px;
+    line-height: 2em;
+    background-color: #2f8a8419;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.136);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.286);
+}
+@media(max-width:700px){
+    iframe{
+        width: 100%;
+    }
+}
+
+/** Lateral interativa**/
+.icones-laterais{
+    display: flex;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap; 
+    padding: 40px 120px;
+}
+@media (min-width:1150px){
+    ul{
+        display: block;
+    }
+}
+
+.itens{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 40px 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #3D261B;
+}
+.active{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.active:hover{
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8A4421;
+    transition: 0,5s;
+}
