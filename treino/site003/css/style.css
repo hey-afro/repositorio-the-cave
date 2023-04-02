@@ -92,7 +92,7 @@ main h2{
 ul{
     display: flex;
     flex-flow: row wrap; 
-    padding: 40px 120px;
+    padding: 10px 20px;
 }
 @media (min-width:1150px){
     ul{
