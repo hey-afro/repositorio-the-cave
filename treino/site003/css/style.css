@@ -35,7 +35,6 @@ body{
 main{
     display: flex;
     flex-flow: row wrap;
-    align-items: ;
     justify-content: center ;
     padding: 30px 0px;
     padding-bottom: 40px;
