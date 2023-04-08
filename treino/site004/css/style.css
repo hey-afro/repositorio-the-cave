@@ -4,3 +4,105 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 6vh 2fr 1fr 1vh ;
+    grid-template-areas: 
+    "h "
+    "z"
+    "k"
+    "t"
+    "f";
+    background-color: rgb(243, 250, 215);
+}
+header{
+    grid-area: h ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 232, 24, 0.837), rgba(255, 255, 255, 0)
+    )
+}
+header > a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+.zeri{
+    grid-area: z ;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.zeri > .texto{
+    max-width: 800px;
+    margin: 15px;
+}
+.zeri > img{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.559);
+}
+.texto > h1{
+    font-variant: small-caps;
+    font-size: 2em;
+    text-align: center;
+    margin: 15px;
+}
+.texto > h2{
+    text-align: center;
+    margin: 15px;
+}
+.texto > p{
+    text-align: center;
+    line-height: 2em;
+}
+.kaisa{
+    grid-area: k ;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.kaisa > article{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+}
+article > ul{
+    list-style: none;
+}
+article > img{
+    height: 200px;
+    border-radius: 50%;
+    margin: 15px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.559);
+}
+article > h2{
+    margin: 20px;
+}
+li > a{
+    color: black;
+    text-decoration: none;
+}
+li > a:hover{
+    color: rgb(193, 103, 0);
+}
+.twitch{
+    grid-area: t ;
+    background-color: cadetblue;
+}
+footer{
+    grid-area: f ;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to bottom,  rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.309));
+}
