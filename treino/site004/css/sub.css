@@ -7,7 +7,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 6vh 2fr 1fr 1vh ;
+    grid-template-rows: 20vh 75vh 1fr 1fr ;
     grid-template-areas: 
     "h "
     "z"
