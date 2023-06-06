@@ -35,18 +35,20 @@ main{
 
 .primeiro{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     margin: 70px auto;
     max-width: 900px;
     padding: 25px;
 }
 .primeiro img{
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.485);
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.236);
 }
 .primeiro p{
     background-color: aliceblue;
-    border-radius: 20px 20px 20px 0px;
+    border-radius: 0px 20px 20px 20px;
     padding: 10px;
     margin: 15px;
     font-size: 1.5em;
